@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3243556012405820685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3685050849664261781}
+  - component: {fileID: 1089958818820442953}
+  m_Layer: 0
+  m_Name: Map Generator Start Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3685050849664261781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3243556012405820685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 102.5059, y: -83.189224, z: 35.93263}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1089958818820442953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3243556012405820685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f131b771fd7da674eb6e7952a103371d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabEnemyShip: {fileID: 0}
+  prefabOcean: {fileID: 8274578907782074220, guid: 0d188710d39d81847b970292c3a39192,
+    type: 3}
+  prefabObstacles: []
+  prefabRivers:
+  - {fileID: 1979244070699154069, guid: fb72478f63ae20e4f90a7709ee8cac57, type: 3}
+  - {fileID: 1979244070699154069, guid: a037df663c74e9e4cafb931ad979781b, type: 3}
+  - {fileID: 1979244070699154069, guid: 1685301d62bbc9c478c3e8f81c7b4873, type: 3}
+  - {fileID: 1979244070699154069, guid: 1f731f2a09518434eb3542dd7e2082db, type: 3}
+  OceanBlock: 

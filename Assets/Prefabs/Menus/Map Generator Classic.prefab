@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2761165862309027209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2761165862309027223}
+  - component: {fileID: 2761165862309027208}
+  m_Layer: 0
+  m_Name: Map Generator Classic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2761165862309027223
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2761165862309027209}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2761165862309027208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2761165862309027209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449df51c9896a86469075356b5223bf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabEnemyShip: {fileID: 8961493248300681494, guid: a22b1fe6a7684af4fbb50853f77bad4a,
+    type: 3}
+  prefabOcean: {fileID: 8274578907782074220, guid: 0d188710d39d81847b970292c3a39192,
+    type: 3}
+  prefabObstacles:
+  - {fileID: 34627364770865831, guid: 9474fec2b65cb494e9c7b40bc85dfe67, type: 3}
+  - {fileID: 4138879005109654632, guid: ccc337b01d62bef4ebbd4a04df21216c, type: 3}
+  - {fileID: 4163407791600669777, guid: bb3f7baf8ecf62d4bafc466a62110544, type: 3}
+  - {fileID: 8462202069389778642, guid: 27ac96261047ba9438eeddf24b552d44, type: 3}
+  - {fileID: 6829064749213415378, guid: 139ca9ce2ca35284ab9e59b56ed1f99f, type: 3}
+  - {fileID: 7966369741719468416, guid: 5e803fd7ad36e41409bce856cfa57dc3, type: 3}
+  - {fileID: 7736922758684233358, guid: f17940b8a82720b4296f5885290ae452, type: 3}
+  - {fileID: 6129462808277545823, guid: a08f761e2ee32fa4ba36a9d1b5891695, type: 3}
+  - {fileID: 2330302294685181816, guid: dbee96f3ae15eea4492e5079b47ae8c3, type: 3}
+  - {fileID: 2538391691029232518, guid: 789ad4e2ad5bf6049be27edc576f6a30, type: 3}
+  prefabIslands:
+  - {fileID: 7947753560985887117, guid: af48071b5c5ea0244a683ef9ef89f276, type: 3}
+  - {fileID: 7646967560929520709, guid: 3aba058618271084ba6f0723a61e477d, type: 3}
+  - {fileID: 8794173580271252994, guid: 7657f9097648e7648be0305bd6aecc28, type: 3}
+  - {fileID: 6851437892031809915, guid: d5caf16a567e9044c819962cfa8808ec, type: 3}
+  - {fileID: 7392297349883851753, guid: 240a414229920bd41a773f2d28ea6b7f, type: 3}
+  prefabRivers:
+  - {fileID: 1979244070699154069, guid: fb72478f63ae20e4f90a7709ee8cac57, type: 3}
+  - {fileID: 1979244070699154069, guid: a037df663c74e9e4cafb931ad979781b, type: 3}
+  - {fileID: 1979244070699154069, guid: 1685301d62bbc9c478c3e8f81c7b4873, type: 3}
+  - {fileID: 1979244070699154069, guid: 1f731f2a09518434eb3542dd7e2082db, type: 3}
+  seed: 0
+  level: 1
